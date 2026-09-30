@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+A_METTRE_SUR_RAILWAY.txt
+*.log
