@@ -1,0 +1,17 @@
+BOT COINACADEMY : CE QU'IL FAUT FAIRE (ce fichier reste sur ton PC, ne l'envoie pas sur GitHub)
+
+1. GITHUB (dépôt Youtube-Weekly-Crypto-Market) : remplacer ces 5 fichiers
+     bot_youtube.py, telegram_notify.py, requirements.txt, README.md, .gitignore
+   (Procfile ne change pas)
+
+2. RAILWAY (carte du bot crypto, PAS celle de VIE) > onglet Variables
+     GEMINI_API_KEY      garder
+     TELEGRAM_BOT_TOKEN  jeton du bot crypto donné par @BotFather (un bot à part, pas celui de VIE)
+     TELEGRAM_CHAT_ID    à remplir après le 1er démarrage : les logs affichent
+                         « Groupe « Crypto » : mets TELEGRAM_CHAT_ID = -... »
+     DISCORD_WEBHOOK     supprimer s'il existe
+
+3. Au démarrage, les logs affichent :
+     ✅ Telegram : bot ... → groupe ...      (sinon une ligne ❌ qui dit quoi corriger)
+     ✅ Gemini : modèles utilisés ...
+   et le groupe reçoit : « Bot CoinAcademy en ligne », puis le rapport de la dernière vidéo (1 à 3 min).
